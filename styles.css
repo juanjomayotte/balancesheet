@@ -16,8 +16,13 @@ html {
 }
 
 body {
-  font-family: sans-serif;
   color: #0a0a23;
+  font-family: "Moderustic", sans-serif;
+  background-image: url('/assets/imagen.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 h1 {
@@ -33,17 +38,27 @@ h1 .flex {
 }
 
 h1 .flex span:first-of-type {
-  font-size: 0.7em;
+  font-size: 1em;
+  font-family: "Oswald", sans-serif;
 }
 
 h1 .flex span:last-of-type {
   font-size: 1.2em;
 }
 
+main {
+  position: relative;
+  z-index: 10;
+}
+
 section {
   max-width: 40rem;
   margin: 0 auto;
   border: 2px solid #d0d0d5;
+  border-radius: 2em;
+  background-color:#ededed;
+  position: relative;
+  z-index: 20;
 }
 
 #years {
